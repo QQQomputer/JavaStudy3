@@ -1,5 +1,7 @@
 package com.gom.s1.method;
 
+import java.util.Scanner;
+
 public class MethodMain {
 
 	public static void main(String[] args) {
@@ -17,10 +19,15 @@ public class MethodMain {
 		System.out.println("Main : "+count);
 		
 		String name = rs.test3();
-		System.out.println(name);
-		
+		System.out.println(name);		
 		double a = Math.random();
 		System.out.println(a);
+		
+		Scanner sc = rs.test4();
+		System.out.println("나이를 입력하세요");
+		int age = sc.nextInt();
+		
+		
 		
 		System.out.println("MainMethod Finish");
 	}
