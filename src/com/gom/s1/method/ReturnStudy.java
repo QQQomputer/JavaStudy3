@@ -4,9 +4,9 @@ import java.util.Random;
 import java.util.Scanner;
 
 public class ReturnStudy {
-	//Á¢±ÙÁöÁ¤ÀÚ [±×¿ÜÁöÁ¤ÀÚ] ¸®ÅÏÅ¸ÀÔ ¸Ş¼­µå¸í([¸Å°³º¯¼ö ¼±¾ğ]){}
+	//ì ‘ê·¼ì§€ì •ì [ê·¸ì™¸ì§€ì •ì] ë¦¬í„´íƒ€ì… ë©”ì„œë“œëª…([ë§¤ê°œë³€ìˆ˜ ì„ ì–¸]){}
 	public void test1() {
-		System.out.println("void´Â ¸®ÅÏÀÌ ¾øÀ» ¶§ »ç¿ë");
+		System.out.println("voidëŠ” ë¦¬í„´ì´ ì—†ì„ ë•Œ ì‚¬ìš©");
 	}
 
 	public int test2() {
@@ -17,9 +17,9 @@ public class ReturnStudy {
 	}
 	
 	public String test3() {
-		//Å°º¸µå·Î ºÎÅÍ ÀÌ¸§À» ÀÔ·Â¹Ş°í ¸®ÅÏ
+		//í‚¤ë³´ë“œë¡œ ë¶€í„° ì´ë¦„ì„ ì…ë ¥ë°›ê³  ë¦¬í„´
 		Scanner sc = new Scanner(System.in);
-		System.out.println("ÀÌ¸§À» ÀÔ·ÂÇØÁÖ¼¼¿ä");
+		System.out.println("ì´ë¦„ì„ ì…ë ¥í•´ì£¼ì„¸ìš”");
 		String name = sc.next();
 		return name;		
 	}

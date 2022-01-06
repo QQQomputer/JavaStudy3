@@ -6,31 +6,31 @@ public class StudentUtil {
 
 	public Student[] makeStudent() {
 
-		// 1. ¹è¿­ - °°Àº µ¥ÀÌÅÍÅ¸ÀÔ(x)
+		// 1. ë°°ì—´ - ê°™ì€ ë°ì´í„°íƒ€ì…(x)
 		// 2. class
 		//################################################
-		// Æ²¸° ÀÌÀ¯!!!! == ¹æ¿¡´Â ¹«Á¶°Ç ÇĞ»ıÀ» ¸¸µé¾î Áà¾ßÇÑ´Ù!!//
-		// ¹æ¿¡ ÇĞ»ıÀÌ ¾ø´Â »óÅÂ¿¡¼­ Á¤º¸¸¦ ³ÖÀ¸·Á°íÇÔ!!
+		// í‹€ë¦° ì´ìœ !!!! == ë°©ì—ëŠ” ë¬´ì¡°ê±´ í•™ìƒì„ ë§Œë“¤ì–´ ì¤˜ì•¼í•œë‹¤!!//
+		// ë°©ì— í•™ìƒì´ ì—†ëŠ” ìƒíƒœì—ì„œ ì •ë³´ë¥¼ ë„£ìœ¼ë ¤ê³ í•¨!!
 		//################################################
 		
 		
 		Scanner sc = new Scanner(System.in);
 
-		System.out.println("ÇĞ»ı¼ö´Â ¸î¸íÀÔ´Ï±î?");
+		System.out.println("í•™ìƒìˆ˜ëŠ” ëª‡ëª…ì…ë‹ˆê¹Œ?");
 		int count = sc.nextInt();
 		Student [] stu = new Student[count];
 		
 		for(int i =0; i<stu.length;i++) {
 			Student student = new Student();
-			System.out.println("ÀÌ¸§À» ÀÔ·ÂÇØÁÖ¼¼¿ä");
+			System.out.println("ì´ë¦„ì„ ì…ë ¥í•´ì£¼ì„¸ìš”");
 			String name = sc.next();
-			System.out.println("¹øÈ£¸¦ ÀÔ·ÂÇØÁÖ¼¼¿ä");
+			System.out.println("ë²ˆí˜¸ë¥¼ ì…ë ¥í•´ì£¼ì„¸ìš”");
 			int num = sc.nextInt();
-			System.out.println("±¹¾îÁ¡¼ö¸¦ ÀÔ·ÂÇØÁÖ¼¼¿ä");
+			System.out.println("êµ­ì–´ì ìˆ˜ë¥¼ ì…ë ¥í•´ì£¼ì„¸ìš”");
 			int kor = sc.nextInt();
-			System.out.println("¿µ¾îÁ¡¼ö¸¦ ÀÔ·ÂÇØÁÖ¼¼¿ä");
+			System.out.println("ì˜ì–´ì ìˆ˜ë¥¼ ì…ë ¥í•´ì£¼ì„¸ìš”");
 			int eng = sc.nextInt();
-			System.out.println("¼öÇĞÁ¡¼ö¸¦ ÀÔ·ÂÇØÁÖ¼¼¿ä");
+			System.out.println("ìˆ˜í•™ì ìˆ˜ë¥¼ ì…ë ¥í•´ì£¼ì„¸ìš”");
 			int math = sc.nextInt();
 			stu[i]=student;
 			stu[i].name = name;

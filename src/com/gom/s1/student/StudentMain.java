@@ -4,19 +4,19 @@ package com.gom.s1.student;
 public class StudentMain {
 
 	public static void main(String[] args) {
-		//  makeStudent È£Ãâ
-		// ÀÌ¸§, ¹øÈ£, ±¹¾î, ¿µ¾î,  ¼öÇĞ Ãâ·Â
-		//ÇĞ»ıÀÇ ¼ö¸¦ ÀÔ·Â¹ŞÀ½
+		//  makeStudent í˜¸ì¶œ
+		// ì´ë¦„, ë²ˆí˜¸, êµ­ì–´, ì˜ì–´,  ìˆ˜í•™ ì¶œë ¥
+		//í•™ìƒì˜ ìˆ˜ë¥¼ ì…ë ¥ë°›ìŒ
 
 		StudentUtil studentUtil = new StudentUtil();
 		Student [] stu = studentUtil.makeStudent();
 		
 		for(int i=0;i<stu.length;i++) {
-			System.out.println("ÀÌ¸§ : "+stu[i].name);
-			System.out.println("¹øÈ£ : "+stu[i].num);
-			System.out.println("±¹¾î : "+stu[i].kor);
-			System.out.println("¿µ¾î : "+stu[i].eng);
-			System.out.println("¼öÇĞ : "+stu[i].math);						
+			System.out.println("ï¿½Ì¸ï¿½ : "+stu[i].name);
+			System.out.println("ï¿½ï¿½È£ : "+stu[i].num);
+			System.out.println("ï¿½ï¿½ï¿½ï¿½ : "+stu[i].kor);
+			System.out.println("ï¿½ï¿½ï¿½ï¿½ : "+stu[i].eng);
+			System.out.println("ï¿½ï¿½ï¿½ï¿½ : "+stu[i].math);						
 		}
 		
 

@@ -8,11 +8,11 @@ public class MethodMain {
 
 		System.out.println("MainMethod Start");
 
-		//°´Ã¼ »ı¼º ÄÚµå
-		//new Å¬·¡½º¸í();
+		//ê°ì²´ ìƒì„± ì½”ë“œ
+		//new í´ë˜ìŠ¤ëª…();
 		ReturnStudy rs = new ReturnStudy();
 		
-		//ÂüÁ¶º¯¼ö¸í.¸â¹öµé
+		//ì°¸ì¡°ë³€ìˆ˜ëª….ë©¤ë²„ë“¤
 		rs.test1();
 	
 		int count = rs.test2();
@@ -24,7 +24,7 @@ public class MethodMain {
 		System.out.println(a);
 		
 		Scanner sc = rs.test4();
-		System.out.println("³ªÀÌ¸¦ ÀÔ·ÂÇÏ¼¼¿ä");
+		System.out.println("ë‚˜ì´ë¥¼ ì…ë ¥í•˜ì„¸ìš”");
 		int age = sc.nextInt();
 		
 		
